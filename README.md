@@ -17,6 +17,7 @@ mlflow server     --backend-store-uri sqlite:///mlflow.db     --default-artifact
 - Each experiment is saved to mlflow.
 - Best model is saved as well.
 - Remember to remove `sar_best` folder before running the script.
+- Remember to make sure the dataset is available at `~/datasets/movielens100K/u.data` before running the script.
 ```
 python train.py
 ```
