@@ -42,6 +42,10 @@ model output:    user_id  item_id  prediction
 9        1     1682    0.006996
 ```
 - Remember to add `scipy` to `conda.yml` since we need it in the server, but it is not automatically added to the auto-generated file.
+
+- We can compare the experiment results on mlflow ui:
+![ml_compare](images/mlflow-azure-recommender.png)
+
 ### Serve the saved best model
 ```
 mlflow models serve -m sar_best -p 5001
