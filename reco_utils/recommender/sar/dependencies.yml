@@ -1,0 +1,9 @@
+name: sarjaccarddeploy
+dependencies:
+- pip:
+  - azureml-sdk
+  - azureml-widgets
+  - matplotlib
+  - sklearn
+  - pandas
+  - azureml-opendatasets
